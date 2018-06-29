@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.liupengcheng.helloworld">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="true">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="/storage/emulated/0/"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Activity Test" />
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".recyclerview.LinearRecyclerViewActivity" />
+        <activity android:name=".recyclerview.HorRecyclerViewActivity" />
+        <activity android:name=".recyclerview.GridRecyclerViewActivity" />
+        <activity android:name=".recyclerview.PuRecyclerViewActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".CustomDialogActivity" />
+        <activity android:name=".PopUpWindowActivity" />
+        <activity
+            android:name=".message.MessageActivity"
+            android:label="Message" />
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FragmentTestActivity" />
+        <activity android:name=".fragmentbestpractice.FragBestPracticeActivity" />
+        <activity android:name=".fragmentbestpractice.NewsContentActivity" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".FileActivity" />
+        <activity
+            android:name=".LoginPracticeActivity"
+            android:label="LOGIN" />
+        <activity android:name=".DatabaseTestActivity" />
+        <activity android:name=".LitePalTestActivity" />
+        <activity android:name=".PermissionTestActivity" />
+        <activity android:name=".NotificationTestActivity" />
+        <activity android:name=".CameraAlbumActivity" />
+        <activity android:name=".ContactTestActivity" />
+        <activity android:name=".MediaActivity" />
+        <activity android:name=".MusicPlayerTestActivity" />
+        <activity android:name=".VideoPlayerTestActivity" />
+        <activity android:name=".NetworkTestActivity" />
+        <activity android:name=".ThreadTestActivity" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name=".MyIntentService" />
+
+        <activity android:name=".ServiceTestActivity" />
+        <activity android:name=".DrawerTestActivity"></activity>
+    </application>
+
+</manifest>

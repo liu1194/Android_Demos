@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="BookStore2"></dbname> //用于指定数据库名
+    <version value="2"></version>       //用于指定数据库版本号
+    <list>
+        <mapping class="com.example.liupengcheng.helloworld.Book"></mapping>
+        <mapping class="com.example.liupengcheng.helloworld.Category"></mapping>
+    </list>                       //用于指定所有的映射模型
+</litepal>

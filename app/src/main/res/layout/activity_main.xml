@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.liupengcheng.helloworld.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="textview" />
+
+            <Button
+                android:id="@+id/btn_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BUtton"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_edittext"
+                android:text="Edit Text"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>   //textAllCaps 是否全部为大写锁定
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_radio"
+                android:text="Radio Button"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_checkbox"
+                android:text="Check Box"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_imageview"
+                android:text="Image View"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_listview"
+                android:text="List View"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_gridview"
+                android:text="Grid View"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_recyclerview"
+                android:text="Recycler View"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_webview"
+                android:text="Web View"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_toast"
+                android:text="Toast"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog"
+                android:text="Dialog"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_customdialog"
+                android:text="Custom Dialog"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_popup"
+                android:text="Pop Up Window"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_message"
+                android:text="Message Test"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

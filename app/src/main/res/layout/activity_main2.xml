@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ui activity " />
+            <Button
+                android:id="@+id/btn_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ui fragment"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_bestfragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment Practice (news)"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="File Option"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_login_practice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN PRACTICE"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_database"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DATABASE"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_LitePal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LitePal Test"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_permission_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="permission Test"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_notification_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notification Test"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_camera_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camera Test"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_contact_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="联系人"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_media_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="多媒体"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_network_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="network test"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_thread_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="thread test"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:text="service test"
+                android:id="@+id/btn_service_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_drawer_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="drawer test"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

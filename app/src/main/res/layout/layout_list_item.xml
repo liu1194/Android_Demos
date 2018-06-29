@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp" android:paddingRight="15dp"
+    android:paddingTop="10dp" android:paddingBottom="10dp">
+    <ImageView
+        android:id="@+id/list_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#000"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/list_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_tv_time"
+            android:text="2018-2-27"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_tv_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorOrange"
+            android:textSize="18sp"
+            android:text="this is text"/>
+    </LinearLayout>
+</LinearLayout>

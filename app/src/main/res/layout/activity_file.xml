@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/file_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Type something here"
+        android:background="@color/colorGray"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/file_edit"
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorOrange"
+        android:text="SAVE"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/btn_save"
+        android:id="@+id/btn_save_sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorOrange"
+        android:text="SAVE SP"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:layout_below="@id/btn_save_sp"
+        android:id="@+id/file_edit_display"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorGray"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/file_edit_display"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:layout_below="@id/file_edit_display"
+            android:id="@+id/clean_all"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/colorOrange"
+            android:text="clean"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/file_edit_display"
+            android:id="@+id/display"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:background="@color/colorOrange"
+            android:text="display"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/file_edit_display"
+            android:id="@+id/display_sp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:background="@color/colorOrange"
+            android:text="display sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

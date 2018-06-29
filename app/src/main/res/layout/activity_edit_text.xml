@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="15dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/rl_1"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_user"
+            android:id="@+id/im_1"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:textColor="#ff9900"
+        android:maxLines="1"
+        android:hint="Username"
+        android:padding="10dp"
+        android:layout_below="@+id/rl_1"
+        android:drawablePadding="5dp"
+        android:background="@drawable/bg_username" />
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:textColor="#ff9900"
+        android:singleLine="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/et_1"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_username"/>
+    <EditText
+        android:id="@+id/et_3"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:textColor="#ff9900"
+        android:singleLine="true"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:layout_below="@+id/et_2"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_username"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/et_3"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_btn4"
+            android:text="login"
+
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_btn4"
+            android:text="register"
+            >
+
+        </Button>
+    </LinearLayout>
+
+
+</RelativeLayout>
